@@ -2,6 +2,10 @@
 from odoo import api, fields, models, tools, _
 from odoo.exceptions import UserError, ValidationError
 
+from odoo.http import request
+import logging
+_logger = logging.getLogger(__name__)
+
 class MyPet(models.Model):
     _name = "my.pet"
     _description = "My pet model"
@@ -24,4 +28,3 @@ class MyPet(models.Model):
                                 column1='col_pet_id',
                                 column2='col_product_id')
     basic_price = fields.Float('Basic Price', default=0)
-    

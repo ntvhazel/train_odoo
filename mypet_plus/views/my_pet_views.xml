@@ -9,9 +9,6 @@
                 <xpath expr="//group[@name='images']/group[2]" position="inside">
                     <field name="toy"/>
                 </xpath>
-                <xpath expr="//group[@name='products']" position="replace">
-
-                </xpath>
             </field>
         </record>
     </data>
