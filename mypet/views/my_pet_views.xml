@@ -41,7 +41,7 @@
 									<group string="Images">
 										<field name="pet_image" string="Pet's Image" widget="image"/>
 									</group>
-									<group string="Products" name="products">
+									<group string="Products">
 										<field name="product_ids" widget="many2many_tags"/>
 									</group>
 								</group>
